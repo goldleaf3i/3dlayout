@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <nodes>
+    <node uid="f2f723f5-626f-4e8d-b246-adb18470f383">
+      <id>0</id>
+      <label>SHARED OFFICE</label>
+      <type>R</type>
+      <color b="242" g="103" r="34"/>
+      <position x="117" y="58"/>
+    </node>
+    <node uid="968404eb-cf07-45a9-9e7b-c58f65008c31">
+      <id>1</id>
+      <label>SHARED OFFICE</label>
+      <type>R</type>
+      <color b="242" g="103" r="34"/>
+      <position x="279" y="81"/>
+    </node>
+    <node uid="219462db-cb4f-4240-bff9-f4995fc84a78">
+      <id>2</id>
+      <label>SHARED OFFICE</label>
+      <type>R</type>
+      <color b="242" g="103" r="34"/>
+      <position x="88" y="272"/>
+    </node>
+    <node uid="cbddf873-c853-405f-8331-660d6128a3fa">
+      <id>3</id>
+      <label>OPENSPACE</label>
+      <type>R</type>
+      <color b="137" g="191" r="67"/>
+      <position x="544" y="367"/>
+    </node>
+    <node uid="6aeb1059-be13-4585-951d-7c8efb0d7306">
+      <id>4</id>
+      <label>OPENSPACE</label>
+      <type>R</type>
+      <color b="137" g="191" r="67"/>
+      <position x="534" y="724"/>
+    </node>
+    <node uid="438b4484-cef4-4f36-944a-78b305576a0d">
+      <id>5</id>
+      <label>COLLECTIVE SERVICE ROOM</label>
+      <type>R</type>
+      <color b="60" g="60" r="60"/>
+      <position x="157" y="765"/>
+    </node>
+    <node uid="d1e35841-96c3-4875-9b43-67486823106b">
+      <id>6</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="332" y="756"/>
+    </node>
+    <node uid="d7c17763-0674-4194-8451-024ebb155d32">
+      <id>7</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="783" y="365"/>
+    </node>
+    <node uid="01fe3a9c-d8a5-43dc-ab43-32b739d72163">
+      <id>8</id>
+      <label>OFFICE</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="856" y="255"/>
+    </node>
+    <node uid="9b6478d5-cb5b-468a-8071-0b5bcdae2495">
+      <id>9</id>
+      <label>OFFICE</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="860" y="415"/>
+    </node>
+    <node uid="0954f254-ae07-4967-99a8-a5c7a08bde87">
+      <id>10</id>
+      <label>OFFICE</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="863" y="110"/>
+    </node>
+    <node uid="0d4d56f0-8df1-46bf-85e8-bbebbdbd77bc">
+      <id>11</id>
+      <label>OFFICE</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="856" y="807"/>
+    </node>
+    <node uid="70604ff8-fa5c-46b9-9570-194255c00c86">
+      <id>12</id>
+      <label>OFFICE</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="865" y="684"/>
+    </node>
+    <node uid="c99d5eb9-1d94-4206-b8ea-881b31ddca92">
+      <id>13</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="752" y="593"/>
+    </node>
+    <node uid="26531394-4d2c-4552-b8e2-6e8afad5a8d5">
+      <id>14</id>
+      <label>HALL</label>
+      <type>C</type>
+      <color b="25" g="87" r="191"/>
+      <position x="611" y="85"/>
+    </node>
+    <node uid="fee928b9-bff2-4ed9-98a2-4a247593e400">
+      <id>15</id>
+      <label>HALL</label>
+      <type>C</type>
+      <color b="25" g="87" r="191"/>
+      <position x="168" y="472"/>
+    </node>
+  </nodes>
+  <connections>
+    <connection>
+      <id>1</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>1</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>2</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>2</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>4</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>4</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>7</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>7</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>7</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>7</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>8</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>8</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>8</id>
+    </connection>
+    <connection>
+      <id>10</id>
+      <id>8</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>11</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>12</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>9</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>10</id>
+    </connection>
+    <connection>
+      <id>14</id>
+      <id>10</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>6</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>15</id>
+      <id>2</id>
+    </connection>
+  </connections>
+</test>

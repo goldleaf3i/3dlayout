@@ -1,0 +1,32 @@
+<launch>
+	<param name="use_sim_time" value="false"/>
+    <group ns="BS">
+	    <node name="BS_MapAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /BS/map 100"/>
+	    <node name="BS_PoseAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /BS/map /BS/base_pose  100"/>
+	    <node name="R1_MapAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /robot_1/map 100"/>
+	    <node name="R2_MapAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /robot_2/map 100"/>
+	    <node name="R3_MapAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /robot_3/map 100"/>
+	    <node name="R4_MapAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /robot_4/map 100"/>
+		<param name="robot_id" value="666" />
+		<param name="tf_prefix" type="string" value="BS"/>
+		<param name="is_base_station" value="true"/>
+		<rosparam file="param/rosBS.yaml"/>
+        <param name="use_sim_time" value="false"/>
+		<node name="Mapper" pkg="nav2d_karto" type="mapper">
+			<remap from="base_scan" to="scan"/>
+			<remap from="karto_in" to="/karto"/>
+			<remap from="karto_out" to="/karto"/>
+			<remap from="others" to="/others"/>
+			<rosparam file="param/mapper.yaml"/>
+		</node>
+		
+        <node name="Navigator" pkg="nav2d_navigator" type="navigator" launch-prefix="xterm -e gdb --args">
+                <rosparam file="param/navigatorBS.yaml"/>
+
+		<remap from="others" to="/others"/>
+        </node>
+
+        <node name="GetMap" pkg="nav2d_navigator" type="get_map_client" />
+        <node name="Explore" pkg="nav2d_navigator" type="explore_client" />
+    </group>
+</launch>

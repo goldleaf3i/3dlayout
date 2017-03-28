@@ -1,0 +1,10 @@
+<launch>    
+
+<node pkg="teleop" type="teleop" name="teleop" output="screen">
+   <param name="scale_linear" value="0.3"/>
+   <param name="scale_angular" value="1.0"/>
+   <param name="velocity_topic" value="/robot_2/cmd_vel_mux/input/teleop"/>
+   <param name="watchdog_enabled" value="false"/>
+</node>
+
+</launch>

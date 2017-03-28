@@ -1,0 +1,34 @@
+# Inflation params used for path planning
+map_inflation_radius: 0.4
+robot_radius: 0.2
+
+# Tolerance in target position for MoveToPosition2D (meter)
+navigation_goal_distance: 1.0
+
+# Toleranvce in target heading for MoveToPosition2D (radians)
+navigation_goal_angle: 0.5
+
+# Distance at which to turn off obstacle avoidance (meter)
+navigation_homing_distance: 4.0
+
+# Find new exploration target when in range of current one (meter)
+exploration_goal_distance: 1.0
+is_base_station: true
+frequency: 0.5
+
+# Exploration strategy
+exploration_strategy: ApproximateILPPlanner
+
+# Strategy ApproximateILPPlanner
+visualize_markers: true
+min_frontier_cluster_size: 0.8
+team_size: 3
+perc_robots_ready_threshold: 0.5 
+num_subset: 3
+communication_range: 10.0
+root_path: /home/alberto/tmp/
+script_path: /media/DATA/workspace/MRESim-master_4.0/MRESim-master_4.0/scripts/
+neighborhood_tolerance: 0.8
+communication_tolerance: 0.25
+distance_tolerance: 0.8
+angle_tolerance: 0.5

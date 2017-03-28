@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <nodes>
+    <node uid="71f2d166-8442-4700-ac01-f97d5771dcf3">
+      <id>0</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="88" y="212"/>
+    </node>
+    <node uid="bfea0429-5729-4dd8-9f37-fd7462abd1f4">
+      <id>1</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="176" y="213"/>
+    </node>
+    <node uid="4bffbe3e-53ec-45df-8916-4cf8d9343a04">
+      <id>2</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="265" y="213"/>
+    </node>
+    <node uid="090ca7db-a7b4-49e5-8c96-4bb2aee718a5">
+      <id>3</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="345" y="206"/>
+    </node>
+    <node uid="03677c30-320b-43ef-b468-01bc3d3bedb6">
+      <id>4</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="464" y="204"/>
+    </node>
+    <node uid="33253e29-ede1-4b2a-a980-1d2c93312418">
+      <id>5</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="542" y="203"/>
+    </node>
+    <node uid="13afb062-a42a-4a3f-a576-ca4e64c0a9d9">
+      <id>6</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="527" y="343"/>
+    </node>
+    <node uid="f32da0c0-a42e-400a-ab57-b4cfbc0135c3">
+      <id>7</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="440" y="341"/>
+    </node>
+    <node uid="4975bb6c-fefa-41a2-a19b-7d7a3590fa19">
+      <id>8</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="89" y="359"/>
+    </node>
+    <node uid="4c7f1c54-31d0-4f93-a787-ad3756b852a6">
+      <id>9</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="266" y="351"/>
+    </node>
+    <node uid="2bdd9a34-1432-404a-8262-b57b2ed06931">
+      <id>10</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="197" y="336"/>
+    </node>
+    <node uid="0687b1e5-7716-4946-a6d5-7ab1ffe65ec1">
+      <id>11</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="380" y="344"/>
+    </node>
+    <node uid="c82cf0df-104d-492d-ad8b-c33a36099a64">
+      <id>12</id>
+      <label>MEDIUM</label>
+      <type>R</type>
+      <color b="242" g="144" r="42"/>
+      <position x="334" y="341"/>
+    </node>
+    <node uid="0a8f3ef0-9fce-48f6-92b2-35d4b0649daa">
+      <id>13</id>
+      <label>MEDIUM</label>
+      <type>R</type>
+      <color b="242" g="144" r="42"/>
+      <position x="155" y="350"/>
+    </node>
+    <node uid="d65ba479-f92f-48aa-8108-3b15cefb25a6">
+      <id>14</id>
+      <label>LOBBY</label>
+      <type>C</type>
+      <color b="56" g="71" r="242"/>
+      <position x="33" y="282"/>
+    </node>
+    <node uid="d850896a-8e6a-4c6b-8758-3a1e07d70a7e">
+      <id>15</id>
+      <label>ELEVATOR</label>
+      <type>E</type>
+      <color b="113" g="113" r="20"/>
+      <position x="29" y="325"/>
+    </node>
+    <node uid="037df02a-3ba9-447c-8ec4-d36675d378c2">
+      <id>16</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="327" y="287"/>
+    </node>
+  </nodes>
+  <connections>
+    <connection>
+      <id>15</id>
+      <id>14</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>6</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>11</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>12</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>9</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>10</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>13</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>8</id>
+    </connection>
+    <connection>
+      <id>16</id>
+      <id>14</id>
+    </connection>
+  </connections>
+</test>

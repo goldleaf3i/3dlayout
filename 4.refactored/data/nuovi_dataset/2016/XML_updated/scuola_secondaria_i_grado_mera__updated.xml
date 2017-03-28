@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<building id="a4975daa-24a9-4947-80a2-458a3da2ab42">
+  <name>/Users/matteoluperto/Dropbox/PredizioneLocale/validationset/DaFare/scuola_secondaria_i_grado_mera_</name>
+  <scale>
+    <represented_distance>
+      <value>22</value>
+      <um>pixel</um>
+    </represented_distance>
+    <real_distance>
+      <value>90</value>
+      <um>cm</um>
+    </real_distance>
+  </scale>
+  <Info>Inserire informazioni sull'edificio</Info>
+  <building_type>
+    <main_type>SCHOOL</main_type>
+  </building_type>
+  <floor>
+    <spaces>
+      <space id="23ebe52e-779e-41af-b891-56e890e6487a">
+        <labels>
+          <type>R</type>
+          <label>MEDIUM SERVICE</label>
+        </labels>
+        <centroid>
+          <point x="64" y="418"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="125" y="370"/>
+          </maxx>
+          <maxy>
+            <point x="125" y="432"/>
+          </maxy>
+          <minx>
+            <point x="42" y="370"/>
+          </minx>
+          <miny>
+            <point x="42" y="370"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="42" y="370"/>
+          <point x="125" y="370"/>
+          <point x="125" y="432"/>
+          <point x="112" y="432"/>
+          <point x="42" y="432"/>
+          <point x="42" y="370"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="ea5300e2-bcd1-4c7a-9dca-5815909b0ad8">
+            <point x="42" y="370"/>
+            <point x="125" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ff22d70f-1466-4d02-94e1-06f00158da87">
+            <point x="125" y="370"/>
+            <point x="125" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="1bce521b-0dbf-4646-9d86-de62a769184e">
+            <point x="125" y="432"/>
+            <point x="123" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ed0af39f-5c36-4421-84e8-891d54fa75d2">
+            <point x="123" y="432"/>
+            <point x="123" y="432"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="09ac1dcb-d2cc-47f0-bf24-65c0a3a8fc53">
+            <point x="123" y="432"/>
+            <point x="42" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="e9ae2799-2a60-4194-8776-30dbc017f4dd">
+            <point x="42" y="432"/>
+            <point x="42" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>ed0af39f-5c36-4421-84e8-891d54fa75d2</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>23ebe52e-779e-41af-b891-56e890e6487a</id>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="5d696161-d6d5-44c0-b029-8002ad342295">
+        <labels>
+          <type>R</type>
+          <label>BATHROOM</label>
+        </labels>
+        <centroid>
+          <point x="57" y="443"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="92" y="432"/>
+          </maxx>
+          <maxy>
+            <point x="92" y="459"/>
+          </maxy>
+          <minx>
+            <point x="42" y="432"/>
+          </minx>
+          <miny>
+            <point x="42" y="432"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="42" y="432"/>
+          <point x="87" y="432"/>
+          <point x="92" y="432"/>
+          <point x="92" y="444"/>
+          <point x="92" y="459"/>
+          <point x="42" y="459"/>
+          <point x="42" y="432"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="96ad2116-7daa-4d75-a1d2-8ebe30ae1d1a">
+            <point x="42" y="432"/>
+            <point x="87" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="fac6c594-2620-4614-9d23-8ba51c7ccdce">
+            <point x="87" y="432"/>
+            <point x="92" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="2398dacd-2833-4bdd-9fbb-083fa139931c">
+            <point x="92" y="432"/>
+            <point x="92" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="422a3f71-3728-4447-9205-779db273b301">
+            <point x="92" y="433"/>
+            <point x="92" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="b9f39ade-cc51-4bc4-8266-52d085b39735">
+            <point x="92" y="433"/>
+            <point x="92" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="85d03f4c-3ea6-4375-9153-96d824d73ba1">
+            <point x="92" y="459"/>
+            <point x="42" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9a17fbc8-f038-41fc-9bd3-7515d0aa269a">
+            <point x="42" y="459"/>
+            <point x="42" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>422a3f71-3728-4447-9205-779db273b301</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>5d696161-d6d5-44c0-b029-8002ad342295</id>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="40412422-a500-44f3-88a6-90597ebd6ef5">
+        <labels>
+          <type>R</type>
+          <label>MEDIUM</label>
+        </labels>
+        <centroid>
+          <point x="60" y="491"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="127" y="459"/>
+          </maxx>
+          <maxy>
+            <point x="127" y="531"/>
+          </maxy>
+          <minx>
+            <point x="42" y="459"/>
+          </minx>
+          <miny>
+            <point x="42" y="459"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="42" y="459"/>
+          <point x="104" y="459"/>
+          <point x="127" y="459"/>
+          <point x="127" y="531"/>
+          <point x="42" y="531"/>
+          <point x="42" y="459"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="96c095d1-c3d4-46e6-a328-6cecd4cfd0db">
+            <point x="42" y="459"/>
+            <point x="92" y="457"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="8ff11378-d97b-41c6-94a6-29869d425bbe">
+            <point x="92" y="457"/>
+            <point x="92" y="457"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="242c49c6-8e5e-4d66-a53c-a1c04aa3190d">
+            <point x="92" y="457"/>
+            <point x="127" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="af0f7739-3d44-46f7-b47e-84c505bd2218">
+            <point x="127" y="459"/>
+            <point x="127" y="531"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="b32a27eb-5bf5-43cf-9d2e-63fed3c89636">
+            <point x="127" y="531"/>
+            <point x="42" y="531"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="e75312b3-7c4d-47e1-b05c-7abaad59355d">
+            <point x="42" y="531"/>
+            <point x="42" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>8ff11378-d97b-41c6-94a6-29869d425bbe</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>40412422-a500-44f3-88a6-90597ebd6ef5</id>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="4740f9ed-ad1b-45b9-8117-c5c0f7139eea">
+        <labels>
+          <type>C</type>
+          <label>CORRIDOR</label>
+        </labels>
+        <centroid>
+          <point x="154" y="445"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="213" y="370"/>
+          </maxx>
+          <maxy>
+            <point x="213" y="495"/>
+          </maxy>
+          <minx>
+            <point x="92" y="459"/>
+          </minx>
+          <miny>
+            <point x="125" y="370"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="125" y="370"/>
+          <point x="213" y="370"/>
+          <point x="213" y="397"/>
+          <point x="213" y="495"/>
+          <point x="176" y="495"/>
+          <point x="127" y="495"/>
+          <point x="127" y="459"/>
+          <point x="104" y="459"/>
+          <point x="92" y="459"/>
+          <point x="92" y="444"/>
+          <point x="92" y="432"/>
+          <point x="112" y="432"/>
+          <point x="125" y="432"/>
+          <point x="125" y="370"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="ae1476e3-d676-466a-839f-f1fef7bc252b">
+            <point x="125" y="370"/>
+            <point x="213" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="4b261389-349f-4569-8a30-974d59da39f6">
+            <point x="213" y="370"/>
+            <point x="213" y="386"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="52011030-66ab-4b36-9a09-f6678a7cb0f4">
+            <point x="213" y="386"/>
+            <point x="213" y="386"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+          </linesegment>
+          <linesegment id="57312c83-b632-41fe-8cd4-dbe405eada83">
+            <point x="213" y="386"/>
+            <point x="213" y="495"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="5cc7d166-356b-46fa-bc23-1fd7669446a8">
+            <point x="213" y="495"/>
+            <point x="187" y="495"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="00037432-2777-4d83-8b0f-f3e3fe54f369">
+            <point x="187" y="495"/>
+            <point x="187" y="495"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+          </linesegment>
+          <linesegment id="d6968a67-719e-4eb9-a622-e7b60f933eb8">
+            <point x="187" y="495"/>
+            <point x="127" y="495"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c7b36b3d-cab8-463a-85f9-e7573155f363">
+            <point x="127" y="495"/>
+            <point x="127" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="deaed87e-5ae7-4d09-8c1e-e623e5b5f7f9">
+            <point x="127" y="459"/>
+            <point x="115" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="8ff11378-d97b-41c6-94a6-29869d425bbe">
+            <point x="115" y="459"/>
+            <point x="115" y="459"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6d8b0664-25c7-4002-ab0a-303e7df60265">
+            <point x="115" y="459"/>
+            <point x="92" y="459"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="601247ec-98a1-44ef-baed-d6d091ff2edd">
+            <point x="92" y="459"/>
+            <point x="92" y="457"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="8ff11378-d97b-41c6-94a6-29869d425bbe">
+            <point x="92" y="457"/>
+            <point x="92" y="457"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="5a475797-e63c-4547-aa57-b3bc7e542e8f">
+            <point x="92" y="457"/>
+            <point x="92" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9cafcdcb-4c33-4cba-bd2f-7b3bd8078020">
+            <point x="92" y="432"/>
+            <point x="101" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ed0af39f-5c36-4421-84e8-891d54fa75d2">
+            <point x="101" y="432"/>
+            <point x="101" y="432"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9142834d-36e7-4825-be4c-395c077ee4ca">
+            <point x="101" y="432"/>
+            <point x="125" y="432"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="f6e60286-1a46-4ac4-8668-613352fbbbaa">
+            <point x="125" y="432"/>
+            <point x="125" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>8ff11378-d97b-41c6-94a6-29869d425bbe</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+              <id>40412422-a500-44f3-88a6-90597ebd6ef5</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>422a3f71-3728-4447-9205-779db273b301</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+              <id>5d696161-d6d5-44c0-b029-8002ad342295</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>ed0af39f-5c36-4421-84e8-891d54fa75d2</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+              <id>23ebe52e-779e-41af-b891-56e890e6487a</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>52011030-66ab-4b36-9a09-f6678a7cb0f4</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>00037432-2777-4d83-8b0f-f3e3fe54f369</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+              <id>f008a502-ed2d-4f6e-a4e8-2eb0acc1c149</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="6bfbbca1-4120-4dcc-b9da-d565b507d420">
+        <labels>
+          <type>R</type>
+          <label>LAB</label>
+        </labels>
+        <centroid>
+          <point x="156" y="308"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="213" y="370"/>
+          </maxx>
+          <maxy>
+            <point x="213" y="370"/>
+          </maxy>
+          <minx>
+            <point x="102" y="245"/>
+          </minx>
+          <miny>
+            <point x="102" y="245"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="102" y="245"/>
+          <point x="210" y="245"/>
+          <point x="212" y="348"/>
+          <point x="213" y="370"/>
+          <point x="102" y="370"/>
+          <point x="102" y="245"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="2a395400-a7fe-4a07-8b71-c46b7d82582c">
+            <point x="102" y="245"/>
+            <point x="210" y="245"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="a776dbac-d2cf-4286-8281-8c0e97cd18ff">
+            <point x="210" y="245"/>
+            <point x="212" y="337"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="3c64dcef-58f1-4383-8959-c6df3715b971">
+            <point x="212" y="337"/>
+            <point x="212" y="337"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="84d61155-2407-4bdc-8a6a-d07bef159be4">
+            <point x="212" y="337"/>
+            <point x="213" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="76364dcf-3682-43ea-8328-9acc40595b7f">
+            <point x="213" y="370"/>
+            <point x="102" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="88b10e8f-c1fb-426f-8523-baf5175619cd">
+            <point x="102" y="370"/>
+            <point x="102" y="245"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>3c64dcef-58f1-4383-8959-c6df3715b971</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>6bfbbca1-4120-4dcc-b9da-d565b507d420</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="c47c1dc0-3842-459d-a5a7-9a7aa8bcc687">
+        <labels>
+          <type>E</type>
+          <label>ENTRANCE</label>
+        </labels>
+        <centroid>
+          <point x="399" y="237"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="509" y="192"/>
+          </maxx>
+          <maxy>
+            <point x="509" y="258"/>
+          </maxy>
+          <minx>
+            <point x="211" y="192"/>
+          </minx>
+          <miny>
+            <point x="211" y="192"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="211" y="192"/>
+          <point x="509" y="192"/>
+          <point x="509" y="258"/>
+          <point x="498" y="258"/>
+          <point x="426" y="258"/>
+          <point x="211" y="258"/>
+          <point x="211" y="192"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="0c7be9f3-7746-4025-a83c-02a74f95d762">
+            <point x="211" y="192"/>
+            <point x="509" y="192"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="1c06c63b-3b36-45da-b4e4-f0e5da0e328f">
+            <point x="509" y="192"/>
+            <point x="509" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="0f31abf9-7851-498a-9143-51b1661620f5">
+            <point x="509" y="258"/>
+            <point x="498" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c2d02f08-e6a3-4305-8f56-99f62c735a8f">
+            <point x="498" y="258"/>
+            <point x="437" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c2d7407c-cba1-4e00-96b3-d1edc4e06051">
+            <point x="437" y="258"/>
+            <point x="437" y="258"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+          </linesegment>
+          <linesegment id="718f7688-505d-42b0-9243-e4694eb9209f">
+            <point x="437" y="258"/>
+            <point x="211" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="dbf24cd1-ffaf-4785-93ee-cfe928a5524e">
+            <point x="211" y="258"/>
+            <point x="211" y="192"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>c2d7407c-cba1-4e00-96b3-d1edc4e06051</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>c47c1dc0-3842-459d-a5a7-9a7aa8bcc687</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="7bd958fc-3463-4aa1-9942-cade61c98360">
+        <labels>
+          <type>C</type>
+          <label>LOBBY</label>
+        </labels>
+        <centroid>
+          <point x="378" y="355"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="626" y="258"/>
+          </maxx>
+          <maxy>
+            <point x="626" y="433"/>
+          </maxy>
+          <minx>
+            <point x="211" y="258"/>
+          </minx>
+          <miny>
+            <point x="211" y="258"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="211" y="258"/>
+          <point x="426" y="258"/>
+          <point x="509" y="258"/>
+          <point x="547" y="258"/>
+          <point x="581" y="258"/>
+          <point x="600" y="258"/>
+          <point x="626" y="258"/>
+          <point x="626" y="273"/>
+          <point x="626" y="337"/>
+          <point x="626" y="400"/>
+          <point x="626" y="433"/>
+          <point x="593" y="433"/>
+          <point x="511" y="433"/>
+          <point x="480" y="433"/>
+          <point x="416" y="433"/>
+          <point x="381" y="433"/>
+          <point x="342" y="433"/>
+          <point x="295" y="433"/>
+          <point x="213" y="433"/>
+          <point x="213" y="397"/>
+          <point x="213" y="370"/>
+          <point x="212" y="348"/>
+          <point x="211" y="258"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="8662c38a-1578-4e02-a762-42f643a8272e">
+            <point x="211" y="258"/>
+            <point x="426" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c2d7407c-cba1-4e00-96b3-d1edc4e06051">
+            <point x="426" y="258"/>
+            <point x="426" y="258"/>
+            <class>PORTAL</class>
+            <type>IMPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="06841b1a-231d-48e2-bdce-77fe5b619ad1">
+            <point x="426" y="258"/>
+            <point x="509" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="094c528d-bf57-45d5-937e-45c769a05136">
+            <point x="509" y="258"/>
+            <point x="536" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ae767acc-c500-49a5-a70a-e1bda14caf66">
+            <point x="536" y="258"/>
+            <point x="536" y="258"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="5b8dbf74-1b10-4ddc-884e-b5aaa6c5aaba">
+            <point x="536" y="258"/>
+            <point x="581" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c74a8f88-dc13-4d79-ac70-1563d210f66c">
+            <point x="581" y="258"/>
+            <point x="589" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="2f7bc12f-2495-4c39-a3a9-fdd564289624">
+            <point x="589" y="258"/>
+            <point x="589" y="258"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="582bbf34-7b05-4e55-8ac2-c305768bcad0">
+            <point x="589" y="258"/>
+            <point x="626" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="7cd17326-7685-40e0-a37d-eb327fd4f4a7">
+            <point x="626" y="258"/>
+            <point x="626" y="262"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="f6436a03-b308-454d-b79f-cea02fd1e7ce">
+            <point x="626" y="262"/>
+            <point x="626" y="262"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ad436010-4651-4563-981f-710ad9af6cee">
+            <point x="626" y="262"/>
+            <point x="626" y="337"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6cf21ffb-32a7-45e6-88cb-8e0d4c24e20f">
+            <point x="626" y="337"/>
+            <point x="626" y="389"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="de5933bd-5aed-46ea-b165-9a57f6e532eb">
+            <point x="626" y="389"/>
+            <point x="626" y="389"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="f0f53c6d-f623-4fe7-a456-f3008f7ef470">
+            <point x="626" y="389"/>
+            <point x="626" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c07a4722-90c8-41a9-8eda-ba4b112ce004">
+            <point x="626" y="433"/>
+            <point x="604" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="1becbc23-694b-4495-a1bc-ea8db76f5487">
+            <point x="604" y="433"/>
+            <point x="604" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="176736fd-0009-4713-9935-bd445e7ea525">
+            <point x="604" y="433"/>
+            <point x="511" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="2c660bbf-574e-471e-864d-5f200c9b0bcf">
+            <point x="511" y="433"/>
+            <point x="491" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="7122f2a9-60ba-4fa2-8890-f08469785efd">
+            <point x="491" y="433"/>
+            <point x="491" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="10ed527d-18ab-4afa-b9f3-812e5d8b211b">
+            <point x="491" y="433"/>
+            <point x="416" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="088f1e11-72b3-46c4-9c2b-d841cbd77587">
+            <point x="416" y="433"/>
+            <point x="392" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="45e742b1-9943-4db9-bfbc-b637f99f0d93">
+            <point x="392" y="433"/>
+            <point x="392" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="4422fb5b-7f2e-4c37-9328-ff05b492fac8">
+            <point x="392" y="433"/>
+            <point x="342" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="89c11ea9-8db2-43ef-8f78-ecece3895896">
+            <point x="342" y="433"/>
+            <point x="306" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9e270cd2-035e-4e3c-aa86-58d68f768f80">
+            <point x="306" y="433"/>
+            <point x="306" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d147a57e-514f-4fec-a228-2a8b8c259c5e">
+            <point x="306" y="433"/>
+            <point x="213" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="92cb18ca-f1b8-411a-9b55-3381ade6dae7">
+            <point x="213" y="433"/>
+            <point x="213" y="408"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="52011030-66ab-4b36-9a09-f6678a7cb0f4">
+            <point x="213" y="408"/>
+            <point x="213" y="408"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+          </linesegment>
+          <linesegment id="2dac982a-5dc3-4f12-9aff-83b3b3bc8383">
+            <point x="213" y="408"/>
+            <point x="213" y="370"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c348efbe-f176-4ec3-9aa0-f1a51be1b6a6">
+            <point x="213" y="370"/>
+            <point x="212" y="359"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="3c64dcef-58f1-4383-8959-c6df3715b971">
+            <point x="212" y="359"/>
+            <point x="212" y="359"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="7abda941-54d8-46f4-ba81-d8af975db4f5">
+            <point x="212" y="359"/>
+            <point x="211" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>c2d7407c-cba1-4e00-96b3-d1edc4e06051</linesegment>
+            <class>HORIZONTAL</class>
+            <type>IMPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>c47c1dc0-3842-459d-a5a7-9a7aa8bcc687</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>52011030-66ab-4b36-9a09-f6678a7cb0f4</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>DOUBLE</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>3c64dcef-58f1-4383-8959-c6df3715b971</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>6bfbbca1-4120-4dcc-b9da-d565b507d420</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>f6436a03-b308-454d-b79f-cea02fd1e7ce</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>ae767acc-c500-49a5-a70a-e1bda14caf66</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>a122c851-96e3-4278-aa1d-9bf46c83a215</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>2f7bc12f-2495-4c39-a3a9-fdd564289624</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>d7e66e88-db89-4a1a-8917-bddeebe24201</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>de5933bd-5aed-46ea-b165-9a57f6e532eb</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>ce5065ec-2ac8-4ac5-ab19-9358b2ab8a0d</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>1becbc23-694b-4495-a1bc-ea8db76f5487</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>23ce0008-2813-4b61-8dc9-c9728e86f133</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>7122f2a9-60ba-4fa2-8890-f08469785efd</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>27c1225f-47db-45ce-bcde-13a1a0e84d90</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>45e742b1-9943-4db9-bfbc-b637f99f0d93</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>58276bac-218d-4e28-ae90-147f8b85fc14</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>9e270cd2-035e-4e3c-aa86-58d68f768f80</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+              <id>e48fa72e-acd3-4bbe-9d39-a29500b0b8e2</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="88e2ce79-7fae-4e36-96d8-4684815abd22">
+        <labels>
+          <type>R</type>
+          <label>CLOSET</label>
+        </labels>
+        <centroid>
+          <point x="643" y="313"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="658" y="298"/>
+          </maxx>
+          <maxy>
+            <point x="626" y="322"/>
+          </maxy>
+          <minx>
+            <point x="626" y="322"/>
+          </minx>
+          <miny>
+            <point x="626" y="298"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="626" y="322"/>
+          <point x="626" y="298"/>
+          <point x="638" y="298"/>
+          <point x="658" y="298"/>
+          <point x="658" y="322"/>
+          <point x="626" y="322"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="fa24dec7-38bb-43fa-a2f8-e01ad0f9d1bd">
+            <point x="626" y="322"/>
+            <point x="626" y="298"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d971fb87-2c05-437a-baab-db85b5d3cfe4">
+            <point x="626" y="298"/>
+            <point x="627" y="298"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ff4512a3-2e89-49d3-8ea9-c4b54e5c8d5e">
+            <point x="627" y="298"/>
+            <point x="627" y="298"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="4c49983f-edbc-490a-809b-2e260c76d52a">
+            <point x="627" y="298"/>
+            <point x="658" y="298"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="dcb1fea5-5ec5-4a34-9b10-3aecd1f4617d">
+            <point x="658" y="298"/>
+            <point x="658" y="322"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="022474e3-f2bd-49d1-8386-4dadfe9acf36">
+            <point x="658" y="322"/>
+            <point x="626" y="322"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>ff4512a3-2e89-49d3-8ea9-c4b54e5c8d5e</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>88e2ce79-7fae-4e36-96d8-4684815abd22</id>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="3bf15fbc-aefe-4b11-90ea-d80341c25756">
+        <labels>
+          <type>R</type>
+          <label>MEDIUM SERVICE</label>
+        </labels>
+        <centroid>
+          <point x="693" y="291"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="745" y="256"/>
+          </maxx>
+          <maxy>
+            <point x="745" y="322"/>
+          </maxy>
+          <minx>
+            <point x="657" y="256"/>
+          </minx>
+          <miny>
+            <point x="657" y="256"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="657" y="256"/>
+          <point x="745" y="256"/>
+          <point x="745" y="322"/>
+          <point x="658" y="322"/>
+          <point x="657" y="276"/>
+          <point x="657" y="256"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="879f0229-115b-4f78-bb93-f6b960e77594">
+            <point x="657" y="256"/>
+            <point x="745" y="256"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="bdf1a178-0140-4943-bf50-0ee31a2e9195">
+            <point x="745" y="256"/>
+            <point x="745" y="322"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="eab58953-507a-4e94-9af4-eaf33b0fe310">
+            <point x="745" y="322"/>
+            <point x="658" y="322"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="dc5d95f8-1e7e-4991-a708-5b25852ab4a7">
+            <point x="658" y="322"/>
+            <point x="657" y="287"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="5aa3a94f-3283-4a7e-8214-bae77edeeb16">
+            <point x="657" y="287"/>
+            <point x="657" y="287"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="5cd5ddae-007a-450a-bba3-4b382dd1a39e">
+            <point x="657" y="287"/>
+            <point x="657" y="256"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>5aa3a94f-3283-4a7e-8214-bae77edeeb16</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>3bf15fbc-aefe-4b11-90ea-d80341c25756</id>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="123c0468-bbf6-45a5-b8e0-7dc89840a381">
+        <labels>
+          <type>C</type>
+          <label>CORRIDOR</label>
+        </labels>
+        <centroid>
+          <point x="634" y="275"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="658" y="298"/>
+          </maxx>
+          <maxy>
+            <point x="658" y="298"/>
+          </maxy>
+          <minx>
+            <point x="626" y="258"/>
+          </minx>
+          <miny>
+            <point x="657" y="256"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="626" y="258"/>
+          <point x="639" y="257"/>
+          <point x="657" y="256"/>
+          <point x="657" y="276"/>
+          <point x="658" y="298"/>
+          <point x="638" y="298"/>
+          <point x="626" y="298"/>
+          <point x="626" y="273"/>
+          <point x="626" y="258"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="8a0408d9-3d1e-4f05-9b49-d72c41c818f7">
+            <point x="626" y="258"/>
+            <point x="628" y="257"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d02ab3ec-3bea-4167-bdc6-a87aa0a22d8a">
+            <point x="628" y="257"/>
+            <point x="628" y="257"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6a75de0e-825c-42fd-8a4f-c11ed747bde5">
+            <point x="628" y="257"/>
+            <point x="657" y="256"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="605b24e2-b1a4-487a-8111-0c01c9e3a35f">
+            <point x="657" y="256"/>
+            <point x="657" y="265"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="5aa3a94f-3283-4a7e-8214-bae77edeeb16">
+            <point x="657" y="265"/>
+            <point x="657" y="265"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="79508de3-c36f-4650-b249-f67c1819c9fe">
+            <point x="657" y="265"/>
+            <point x="658" y="298"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6f7976f4-1fc9-48e9-a967-92359b6e5a4d">
+            <point x="658" y="298"/>
+            <point x="649" y="298"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ff4512a3-2e89-49d3-8ea9-c4b54e5c8d5e">
+            <point x="649" y="298"/>
+            <point x="649" y="298"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="e5476e9e-5da1-459f-b49a-233aa6382a3e">
+            <point x="649" y="298"/>
+            <point x="626" y="298"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="7c6266f9-7146-427d-b0eb-9935c979dddf">
+            <point x="626" y="298"/>
+            <point x="626" y="284"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="f6436a03-b308-454d-b79f-cea02fd1e7ce">
+            <point x="626" y="284"/>
+            <point x="626" y="284"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="8388359c-36de-4277-9e40-a2547ff20efc">
+            <point x="626" y="284"/>
+            <point x="626" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>5aa3a94f-3283-4a7e-8214-bae77edeeb16</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+              <id>3bf15fbc-aefe-4b11-90ea-d80341c25756</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>ff4512a3-2e89-49d3-8ea9-c4b54e5c8d5e</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+              <id>88e2ce79-7fae-4e36-96d8-4684815abd22</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>f6436a03-b308-454d-b79f-cea02fd1e7ce</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>d02ab3ec-3bea-4167-bdc6-a87aa0a22d8a</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+              <id>74e9c01e-3cd4-41f9-8e4a-5167a1de7a0b</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="74e9c01e-3cd4-41f9-8e4a-5167a1de7a0b">
+        <labels>
+          <type>C</type>
+          <label>CORRIDOR</label>
+        </labels>
+        <centroid>
+          <point x="639" y="234"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="669" y="197"/>
+          </maxx>
+          <maxy>
+            <point x="626" y="258"/>
+          </maxy>
+          <minx>
+            <point x="626" y="258"/>
+          </minx>
+          <miny>
+            <point x="627" y="197"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="627" y="197"/>
+          <point x="669" y="197"/>
+          <point x="669" y="235"/>
+          <point x="669" y="256"/>
+          <point x="639" y="257"/>
+          <point x="626" y="258"/>
+          <point x="627" y="197"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="1b149242-2c7d-4df3-b6f1-34eb6bd62e0c">
+            <point x="627" y="197"/>
+            <point x="669" y="197"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="61616b1c-6fca-4c3a-be9c-e44f4506ce16">
+            <point x="669" y="197"/>
+            <point x="669" y="224"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6a16e5a7-1910-44cc-bcc5-f475ade7dc42">
+            <point x="669" y="224"/>
+            <point x="669" y="224"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="31d07a15-3701-4592-9cbd-c36e621b33c9">
+            <point x="669" y="224"/>
+            <point x="669" y="256"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="8f318174-ad0d-4082-a02a-a27ece98c9c0">
+            <point x="669" y="256"/>
+            <point x="650" y="257"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d02ab3ec-3bea-4167-bdc6-a87aa0a22d8a">
+            <point x="650" y="257"/>
+            <point x="650" y="257"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9142d4ca-9fa0-4dbb-866a-220a5de51064">
+            <point x="650" y="257"/>
+            <point x="627" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="12d38dbb-c749-465b-8912-16992cafb53a">
+            <point x="627" y="258"/>
+            <point x="627" y="197"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>d02ab3ec-3bea-4167-bdc6-a87aa0a22d8a</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>74e9c01e-3cd4-41f9-8e4a-5167a1de7a0b</id>
+              <id>123c0468-bbf6-45a5-b8e0-7dc89840a381</id>
+            </target>
+          </portal>
+          <portal>
+            <linesegment>6a16e5a7-1910-44cc-bcc5-f475ade7dc42</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>74e9c01e-3cd4-41f9-8e4a-5167a1de7a0b</id>
+              <id>541973b1-9d07-4117-aaaf-c1c9c54acfa7</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="541973b1-9d07-4117-aaaf-c1c9c54acfa7">
+        <labels>
+          <type>C</type>
+          <label>WASHROOM</label>
+        </labels>
+        <centroid>
+          <point x="698" y="231"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="745" y="197"/>
+          </maxx>
+          <maxy>
+            <point x="745" y="256"/>
+          </maxy>
+          <minx>
+            <point x="669" y="197"/>
+          </minx>
+          <miny>
+            <point x="669" y="197"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="669" y="197"/>
+          <point x="745" y="197"/>
+          <point x="745" y="256"/>
+          <point x="669" y="256"/>
+          <point x="669" y="235"/>
+          <point x="669" y="197"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="9edb67f0-09a5-4dc6-a098-f7aff3950690">
+            <point x="669" y="197"/>
+            <point x="745" y="197"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="49c871b0-5126-4c8c-8107-18c44a2e50f0">
+            <point x="745" y="197"/>
+            <point x="745" y="256"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9d3428e6-9ecf-4d2d-b310-80c7a65318ff">
+            <point x="745" y="256"/>
+            <point x="669" y="256"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="8ddcc533-caa1-49c3-ba00-b335bb22f449">
+            <point x="669" y="256"/>
+            <point x="669" y="246"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6a16e5a7-1910-44cc-bcc5-f475ade7dc42">
+            <point x="669" y="246"/>
+            <point x="669" y="246"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="a714d79c-bf13-4d09-a160-ccd78da0d837">
+            <point x="669" y="246"/>
+            <point x="669" y="197"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>6a16e5a7-1910-44cc-bcc5-f475ade7dc42</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>541973b1-9d07-4117-aaaf-c1c9c54acfa7</id>
+              <id>74e9c01e-3cd4-41f9-8e4a-5167a1de7a0b</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="a122c851-96e3-4278-aa1d-9bf46c83a215">
+        <labels>
+          <type>C</type>
+          <label>WASHROOM</label>
+        </labels>
+        <centroid>
+          <point x="538" y="231"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="581" y="192"/>
+          </maxx>
+          <maxy>
+            <point x="581" y="258"/>
+          </maxy>
+          <minx>
+            <point x="509" y="192"/>
+          </minx>
+          <miny>
+            <point x="509" y="192"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="509" y="192"/>
+          <point x="581" y="192"/>
+          <point x="581" y="258"/>
+          <point x="547" y="258"/>
+          <point x="509" y="258"/>
+          <point x="509" y="192"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="cdefc913-d650-4461-9382-77334b5e7cb0">
+            <point x="509" y="192"/>
+            <point x="581" y="192"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="303428ea-639d-4055-a443-45099c236bf5">
+            <point x="581" y="192"/>
+            <point x="581" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d5f94629-e42f-4015-b560-9ade1835e993">
+            <point x="581" y="258"/>
+            <point x="558" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ae767acc-c500-49a5-a70a-e1bda14caf66">
+            <point x="558" y="258"/>
+            <point x="558" y="258"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="20610a88-3194-457a-ad75-cc4bc8275fb7">
+            <point x="558" y="258"/>
+            <point x="509" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d58927cc-dac6-46d5-be1b-f4d4dba3fa26">
+            <point x="509" y="258"/>
+            <point x="509" y="192"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>ae767acc-c500-49a5-a70a-e1bda14caf66</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>a122c851-96e3-4278-aa1d-9bf46c83a215</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="d7e66e88-db89-4a1a-8917-bddeebe24201">
+        <labels>
+          <type>R</type>
+          <label>BATHROOM</label>
+        </labels>
+        <centroid>
+          <point x="604" y="219"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="627" y="197"/>
+          </maxx>
+          <maxy>
+            <point x="626" y="258"/>
+          </maxy>
+          <minx>
+            <point x="581" y="197"/>
+          </minx>
+          <miny>
+            <point x="581" y="197"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="581" y="197"/>
+          <point x="627" y="197"/>
+          <point x="626" y="258"/>
+          <point x="600" y="258"/>
+          <point x="581" y="258"/>
+          <point x="581" y="197"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="0bc0f30d-1176-45ea-9a3e-4619cd682f6d">
+            <point x="581" y="192"/>
+            <point x="627" y="197"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="0f08968d-1ae9-40d9-8154-c19d53b99e70">
+            <point x="627" y="197"/>
+            <point x="627" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="55adaf91-df4c-49c0-8495-88b3a8209120">
+            <point x="627" y="258"/>
+            <point x="611" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="2f7bc12f-2495-4c39-a3a9-fdd564289624">
+            <point x="611" y="258"/>
+            <point x="611" y="258"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="d7545e0e-66a6-4bef-ba12-663f4a55ca52">
+            <point x="611" y="258"/>
+            <point x="581" y="258"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="a2a92372-63ff-45b0-856b-e1fcbedb5d1c">
+            <point x="581" y="258"/>
+            <point x="581" y="197"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>2f7bc12f-2495-4c39-a3a9-fdd564289624</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>d7e66e88-db89-4a1a-8917-bddeebe24201</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="ce5065ec-2ac8-4ac5-ab19-9358b2ab8a0d">
+        <labels>
+          <type>R</type>
+          <label>CLASSROOM</label>
+        </labels>
+        <centroid>
+          <point x="660" y="373"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="745" y="322"/>
+          </maxx>
+          <maxy>
+            <point x="745" y="433"/>
+          </maxy>
+          <minx>
+            <point x="626" y="322"/>
+          </minx>
+          <miny>
+            <point x="626" y="322"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="626" y="322"/>
+          <point x="745" y="322"/>
+          <point x="745" y="433"/>
+          <point x="626" y="433"/>
+          <point x="626" y="400"/>
+          <point x="626" y="322"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="bebad686-bb4c-4138-92b2-e004a132d008">
+            <point x="626" y="322"/>
+            <point x="745" y="322"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="548ed626-d84a-4bca-b4bc-129010651637">
+            <point x="745" y="322"/>
+            <point x="745" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="31cc9a9b-ca63-4e1d-9bfd-7f4ca55c2207">
+            <point x="745" y="433"/>
+            <point x="626" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="97736f50-989e-4d3a-93e9-d116fe2dffba">
+            <point x="626" y="433"/>
+            <point x="626" y="411"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="de5933bd-5aed-46ea-b165-9a57f6e532eb">
+            <point x="626" y="411"/>
+            <point x="626" y="411"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="3d7af82e-922b-453c-8581-63748f2bcc2f">
+            <point x="626" y="411"/>
+            <point x="626" y="322"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>de5933bd-5aed-46ea-b165-9a57f6e532eb</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>ce5065ec-2ac8-4ac5-ab19-9358b2ab8a0d</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="23ce0008-2813-4b61-8dc9-c9728e86f133">
+        <labels>
+          <type>R</type>
+          <label>CLASSROOM</label>
+        </labels>
+        <centroid>
+          <point x="632" y="534"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="745" y="433"/>
+          </maxx>
+          <maxy>
+            <point x="745" y="558"/>
+          </maxy>
+          <minx>
+            <point x="565" y="433"/>
+          </minx>
+          <miny>
+            <point x="565" y="433"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="565" y="433"/>
+          <point x="593" y="433"/>
+          <point x="626" y="433"/>
+          <point x="745" y="433"/>
+          <point x="745" y="558"/>
+          <point x="565" y="558"/>
+          <point x="565" y="440"/>
+          <point x="565" y="433"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="3ff3786c-4f5e-41ad-b4ad-ab548a43de1e">
+            <point x="565" y="433"/>
+            <point x="582" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="1becbc23-694b-4495-a1bc-ea8db76f5487">
+            <point x="582" y="433"/>
+            <point x="582" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="ebe35476-aed6-4c5f-a26a-30d0b81f434a">
+            <point x="582" y="433"/>
+            <point x="626" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="998cb853-94ae-4e8a-80d3-d9173eba899f">
+            <point x="626" y="433"/>
+            <point x="745" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="bddcf427-dfae-4cb1-b9a7-b42f9e0990f0">
+            <point x="745" y="433"/>
+            <point x="745" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6c8f44a3-8775-4a2c-919f-7bff1919e8c3">
+            <point x="745" y="558"/>
+            <point x="565" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="f26fe001-1884-4e87-8fe9-69b7d76521f1">
+            <point x="565" y="558"/>
+            <point x="565" y="440"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="77d63f46-8da4-4734-9ff6-8d1d97d93265">
+            <point x="565" y="440"/>
+            <point x="565" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>1becbc23-694b-4495-a1bc-ea8db76f5487</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>23ce0008-2813-4b61-8dc9-c9728e86f133</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="27c1225f-47db-45ce-bcde-13a1a0e84d90">
+        <labels>
+          <type>R</type>
+          <label>CLASSROOM</label>
+        </labels>
+        <centroid>
+          <point x="485" y="487"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="565" y="433"/>
+          </maxx>
+          <maxy>
+            <point x="565" y="558"/>
+          </maxy>
+          <minx>
+            <point x="445" y="433"/>
+          </minx>
+          <miny>
+            <point x="445" y="433"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="445" y="433"/>
+          <point x="480" y="433"/>
+          <point x="565" y="433"/>
+          <point x="565" y="558"/>
+          <point x="445" y="558"/>
+          <point x="445" y="433"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="0b0315f3-0a7b-4e31-bcfb-8c24e96d02d1">
+            <point x="445" y="433"/>
+            <point x="469" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="7122f2a9-60ba-4fa2-8890-f08469785efd">
+            <point x="469" y="433"/>
+            <point x="469" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="cda8b880-a621-4e2f-aae0-dc02ccf31313">
+            <point x="469" y="433"/>
+            <point x="565" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="4dd17c42-d38e-4606-8b6c-5896abd439cf">
+            <point x="565" y="433"/>
+            <point x="565" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="fde78143-f5ba-47ed-8633-0b6272ae90e3">
+            <point x="565" y="558"/>
+            <point x="445" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="c311b620-0733-4f4e-951c-41f9ae931a06">
+            <point x="445" y="558"/>
+            <point x="445" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>7122f2a9-60ba-4fa2-8890-f08469785efd</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>27c1225f-47db-45ce-bcde-13a1a0e84d90</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="58276bac-218d-4e28-ae90-147f8b85fc14">
+        <labels>
+          <type>R</type>
+          <label>CLASSROOM</label>
+        </labels>
+        <centroid>
+          <point x="383" y="486"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="445" y="433"/>
+          </maxx>
+          <maxy>
+            <point x="445" y="558"/>
+          </maxy>
+          <minx>
+            <point x="328" y="433"/>
+          </minx>
+          <miny>
+            <point x="328" y="433"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="328" y="433"/>
+          <point x="381" y="433"/>
+          <point x="445" y="433"/>
+          <point x="445" y="558"/>
+          <point x="328" y="558"/>
+          <point x="328" y="433"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="d44add31-2d66-4d6b-9770-d033b81b53c0">
+            <point x="328" y="433"/>
+            <point x="370" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="45e742b1-9943-4db9-bfbc-b637f99f0d93">
+            <point x="370" y="433"/>
+            <point x="370" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6b99cf35-4dab-4cdf-bd8d-e2ec79eb792d">
+            <point x="370" y="433"/>
+            <point x="445" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9b80a199-7973-49be-8e46-8e9d94083de5">
+            <point x="445" y="433"/>
+            <point x="445" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6e345e85-cdba-4770-a5fa-1d8a97db2b4e">
+            <point x="445" y="558"/>
+            <point x="328" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="4e659c00-28ec-40ea-bd24-ba977e306312">
+            <point x="328" y="558"/>
+            <point x="328" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>45e742b1-9943-4db9-bfbc-b637f99f0d93</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>58276bac-218d-4e28-ae90-147f8b85fc14</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="e48fa72e-acd3-4bbe-9d39-a29500b0b8e2">
+        <labels>
+          <type>R</type>
+          <label>CLASSROOM</label>
+        </labels>
+        <centroid>
+          <point x="217" y="517"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="328" y="433"/>
+          </maxx>
+          <maxy>
+            <point x="328" y="558"/>
+          </maxy>
+          <minx>
+            <point x="213" y="433"/>
+          </minx>
+          <miny>
+            <point x="213" y="433"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="213" y="433"/>
+          <point x="295" y="433"/>
+          <point x="328" y="433"/>
+          <point x="328" y="558"/>
+          <point x="213" y="558"/>
+          <point x="213" y="433"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="351d4ba1-4900-4a10-b1b8-0c1bdb00d5ae">
+            <point x="213" y="433"/>
+            <point x="284" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="9e270cd2-035e-4e3c-aa86-58d68f768f80">
+            <point x="284" y="433"/>
+            <point x="284" y="433"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="cee1ed32-e8df-4ea9-b3e3-75beb273ebd6">
+            <point x="284" y="433"/>
+            <point x="328" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="eb9f86b5-26e0-4aff-bc54-c26d6cb2c6f2">
+            <point x="328" y="433"/>
+            <point x="328" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="41172ff6-068d-4f19-afd6-2947236c8a56">
+            <point x="328" y="558"/>
+            <point x="213" y="558"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="3cda8e19-3348-4b07-8884-00d46975287b">
+            <point x="213" y="558"/>
+            <point x="213" y="433"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>9e270cd2-035e-4e3c-aa86-58d68f768f80</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>e48fa72e-acd3-4bbe-9d39-a29500b0b8e2</id>
+              <id>7bd958fc-3463-4aa1-9942-cade61c98360</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+      <space id="f008a502-ed2d-4f6e-a4e8-2eb0acc1c149">
+        <labels>
+          <type>E</type>
+          <label>ENTRANCE</label>
+        </labels>
+        <centroid>
+          <point x="165" y="541"/>
+        </centroid>
+        <bounding_box>
+          <maxx>
+            <point x="213" y="495"/>
+          </maxx>
+          <maxy>
+            <point x="213" y="591"/>
+          </maxy>
+          <minx>
+            <point x="122" y="581"/>
+          </minx>
+          <miny>
+            <point x="127" y="495"/>
+          </miny>
+        </bounding_box>
+        <bounding_polygon>
+          <point x="127" y="495"/>
+          <point x="176" y="495"/>
+          <point x="213" y="495"/>
+          <point x="213" y="591"/>
+          <point x="122" y="581"/>
+          <point x="127" y="495"/>
+        </bounding_polygon>
+        <space_representation>
+          <linesegment id="5b183514-9275-4420-b961-5fab7a2347cf">
+            <point x="127" y="495"/>
+            <point x="165" y="495"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="00037432-2777-4d83-8b0f-f3e3fe54f369">
+            <point x="165" y="495"/>
+            <point x="165" y="495"/>
+            <class>PORTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="6591ebf4-b9b4-4324-9d0b-5b4db64ba713">
+            <point x="165" y="495"/>
+            <point x="213" y="495"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="0c6c3b88-479d-4ed3-a49d-0f86345ab0e4">
+            <point x="213" y="495"/>
+            <point x="213" y="591"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="62135217-331c-4456-878e-1459bbe15832">
+            <point x="213" y="591"/>
+            <point x="122" y="581"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+          <linesegment id="36ea6aca-3480-445c-98d4-a57bf14b6bfb">
+            <point x="122" y="581"/>
+            <point x="127" y="495"/>
+            <class>WALL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+          </linesegment>
+        </space_representation>
+        <portals>
+          <portal>
+            <linesegment>00037432-2777-4d83-8b0f-f3e3fe54f369</linesegment>
+            <class>HORIZONTAL</class>
+            <type>EXPLICIT</type>
+            <features>NORMAL</features>
+            <direction>BOTH</direction>
+            <target>
+              <id>f008a502-ed2d-4f6e-a4e8-2eb0acc1c149</id>
+              <id>4740f9ed-ad1b-45b9-8117-c5c0f7139eea</id>
+            </target>
+          </portal>
+        </portals>
+      </space>
+    </spaces>
+  </floor>
+</building>

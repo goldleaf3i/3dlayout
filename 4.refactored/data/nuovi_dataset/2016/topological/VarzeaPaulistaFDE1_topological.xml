@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <nodes>
+    <node uid="a40f3cc3-7ef4-4feb-b11c-f8e007869891">
+      <id>0</id>
+      <label>LOBBY</label>
+      <type>C</type>
+      <color b="56" g="71" r="242"/>
+      <position x="23" y="296"/>
+    </node>
+    <node uid="072fad70-f447-4adb-9129-b987d89be84f">
+      <id>1</id>
+      <label>ELEVATOR</label>
+      <type>E</type>
+      <color b="113" g="113" r="20"/>
+      <position x="16" y="330"/>
+    </node>
+    <node uid="12248b2b-006d-4533-93e8-9c3347b136f7">
+      <id>2</id>
+      <label>LAB</label>
+      <type>R</type>
+      <color b="242" g="103" r="34"/>
+      <position x="100" y="354"/>
+    </node>
+    <node uid="a8ec637d-5f51-4753-8727-0e32b876b399">
+      <id>3</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="201" y="350"/>
+    </node>
+    <node uid="b7b8d0fa-5299-42f1-a1ec-3e22af31d20f">
+      <id>4</id>
+      <label>LAB</label>
+      <type>R</type>
+      <color b="242" g="103" r="34"/>
+      <position x="283" y="355"/>
+    </node>
+    <node uid="f01fe860-b023-41bd-8bcf-962dca788f80">
+      <id>5</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="378" y="343"/>
+    </node>
+    <node uid="e922cb83-686d-4637-bbb7-01f7178cc6e7">
+      <id>6</id>
+      <label>MEDIUM</label>
+      <type>R</type>
+      <color b="242" g="144" r="42"/>
+      <position x="563" y="351"/>
+    </node>
+    <node uid="c89f3b5e-511e-4787-a0cb-56c4835044a1">
+      <id>7</id>
+      <label>MEDIUM ADMINISTRATIVE</label>
+      <type>R</type>
+      <color b="21" g="182" r="190"/>
+      <position x="527" y="384"/>
+    </node>
+    <node uid="37da4995-3dbd-4783-bdc2-3b2ad362a611">
+      <id>8</id>
+      <label>MEDIUM ADMINISTRATIVE</label>
+      <type>R</type>
+      <color b="21" g="182" r="190"/>
+      <position x="478" y="389"/>
+    </node>
+    <node uid="9730fc16-142e-4702-9b23-dc4840e30f47">
+      <id>9</id>
+      <label>WASHROOM</label>
+      <type>C</type>
+      <color b="167" g="202" r="232"/>
+      <position x="419" y="379"/>
+    </node>
+    <node uid="8bcae262-e95c-4d5c-bdfd-11a8d1078adf">
+      <id>10</id>
+      <label>WASHROOM</label>
+      <type>C</type>
+      <color b="167" g="202" r="232"/>
+      <position x="446" y="382"/>
+    </node>
+    <node uid="8fc732dc-fe4c-4f22-9613-51029dbbfd1a">
+      <id>11</id>
+      <label>MEDIUM SERVICE</label>
+      <type>R</type>
+      <color b="139" g="140" r="140"/>
+      <position x="449" y="328"/>
+    </node>
+    <node uid="7f4877f6-d642-4da3-9cff-c5225627fa08">
+      <id>12</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="330" y="299"/>
+    </node>
+    <node uid="72c5e246-6a9f-4ab9-971c-b2396bd06c05">
+      <id>13</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="526" y="344"/>
+    </node>
+  </nodes>
+  <connections>
+    <connection>
+      <id>1</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>6</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>11</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>12</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>8</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>10</id>
+    </connection>
+    <connection>
+      <id>13</id>
+      <id>9</id>
+    </connection>
+  </connections>
+</test>

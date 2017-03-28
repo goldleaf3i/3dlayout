@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <nodes>
+    <node uid="f1fc13b2-cfb2-445d-af6b-4ed9c6b12909">
+      <id>0</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="112" y="219"/>
+    </node>
+    <node uid="3e4a8a80-5bb3-46c3-a1a9-009a432c6691">
+      <id>1</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="292" y="219"/>
+    </node>
+    <node uid="338490db-9f2f-40eb-81a9-2dee46ff33bf">
+      <id>2</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="458" y="206"/>
+    </node>
+    <node uid="b5499d41-ee7f-4d81-94fc-641c552fe05d">
+      <id>3</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="610" y="217"/>
+    </node>
+    <node uid="a54a5f98-7ae3-4888-9831-c35550b24d32">
+      <id>4</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="755" y="227"/>
+    </node>
+    <node uid="2ac263b7-8133-453e-ae63-eab84a712d40">
+      <id>5</id>
+      <label>CLOSET</label>
+      <type>R</type>
+      <color b="189" g="189" r="189"/>
+      <position x="690" y="143"/>
+    </node>
+    <node uid="a494a92f-d7f4-4163-a940-6337493e1728">
+      <id>6</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="460" y="102"/>
+    </node>
+    <node uid="995b8450-bcc4-41bb-b3a1-9bda022a181a">
+      <id>7</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="168" y="79"/>
+    </node>
+  </nodes>
+  <connections>
+    <connection>
+      <id>6</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>7</id>
+      <id>6</id>
+    </connection>
+  </connections>
+</test>

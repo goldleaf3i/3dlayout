@@ -1,0 +1,66 @@
+<launch>
+
+
+
+<arg name="world"/>
+
+<arg name="base"       default="$(optenv TURTLEBOT_BASE kobuki)"/>  <!-- create, rhoomba -->
+  <arg name="stacks"     default="$(optenv TURTLEBOT_STACKS hexagons)"/>  <!-- circles, hexagons -->
+  <arg name="3d_sensor"  default="$(optenv TURTLEBOT_3D_SENSOR kinect)"/>  <!-- kinect, asus_xtion_pro -->
+
+	<!-- Some general parameters -->
+	<param name="use_sim_time" value="true" />
+	<rosparam file="./file_per_stage/nav2d_tutorials/param/ros.yaml"/>
+
+	
+<!--  ***************** Robot Model *****************  -->
+  <include file="$(find turtlebot_bringup)/launch/includes/robot.launch.xml">
+    <arg name="base" value="$(arg base)" />
+    <arg name="stacks" value="$(arg stacks)" />
+    <arg name="3d_sensor" value="$(arg 3d_sensor)" />
+  </include>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="true"/>
+  </node>
+
+
+
+	
+
+	<!-- Start Stage simulator with a given environment -->
+	<node name="Stage" pkg="stage_ros" type="stageros" args="/home/matteo/Desktop/git/world_per_stage/$(arg world)">
+		<param name="base_watchdog_timeout" value="0" />
+	</node>
+
+	<!-- Start the Operator to control the simulated robot -->
+	<node name="Operator" pkg="nav2d_operator" type="operator" >
+		<remap from="scan" to="base_scan"/>
+		<rosparam file="./file_per_stage/nav2d_tutorials/param/operator.yaml"/>
+		<rosparam file="./file_per_stage/nav2d_tutorials/param/costmap.yaml" ns="local_map" />
+	</node>
+
+	<!-- Start Mapper to generate map from laser scans -->
+	<node name="Mapper" pkg="nav2d_karto" type="mapper">
+		<remap from="scan" to="base_scan"/>
+		<rosparam file="./file_per_stage/nav2d_tutorials/param/mapper.yaml"/>
+	</node>
+
+	<!-- Start the Navigator to move the robot autonomously -->
+	<node name="Navigator" pkg="nav2d_navigator" type="navigator">
+		<rosparam file="./file_per_stage/nav2d_exploration/launch/param/navigator.yaml"/>
+	</node>
+
+	<node name="GetMap" pkg="nav2d_navigator" type="get_map_client" />
+	<node name="Explore" pkg="nav2d_navigator" type="explore_client" />
+	<node name="SetGoal" pkg="nav2d_navigator" type="set_goal_client" />
+
+	<!-- Start the joystick-driver and remote-controller for operation-->
+	<node name="Joystick" pkg="joy" type="joy_node" />
+	<node name="Remote" pkg="nav2d_remote" type="remote_joy" />
+
+
+
+	<!-- RVIZ to view the visualization -->
+	<node name="RVIZ" pkg="rviz" type="rviz" args="./file_per_stage/nav2d_tutorials/param/tutorial3.rviz" />
+
+</launch>

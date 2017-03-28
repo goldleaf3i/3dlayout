@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <nodes>
+    <node uid="27df4355-de91-41b9-8d13-fc7ca9ea927f">
+      <id>0</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="232" y="250"/>
+    </node>
+    <node uid="ad7f64f1-ef6b-471d-b157-1c28080ee05c">
+      <id>1</id>
+      <label>CLASSROOM</label>
+      <type>R</type>
+      <color b="242" g="221" r="27"/>
+      <position x="673" y="268"/>
+    </node>
+    <node uid="f1ac244d-99bc-4e35-94fc-76d4e10549c6">
+      <id>2</id>
+      <label>MEDIUM</label>
+      <type>R</type>
+      <color b="242" g="144" r="42"/>
+      <position x="450" y="294"/>
+    </node>
+    <node uid="26ba1540-d579-4343-8888-44de94840944">
+      <id>3</id>
+      <label>MEDIUM SERVICE</label>
+      <type>R</type>
+      <color b="139" g="140" r="140"/>
+      <position x="708" y="631"/>
+    </node>
+    <node uid="9c1a1519-0625-4510-8218-f45bf425c927">
+      <id>4</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="458" y="584"/>
+    </node>
+    <node uid="30bafb4e-02f1-4760-b615-16ebc56d4b86">
+      <id>5</id>
+      <label>ELEVATOR</label>
+      <type>E</type>
+      <color b="113" g="113" r="20"/>
+      <position x="313" y="591"/>
+    </node>
+    <node uid="eb07a644-6d46-4424-b34d-0836402f2009">
+      <id>6</id>
+      <label>MEDIUM SERVICE</label>
+      <type>R</type>
+      <color b="139" g="140" r="140"/>
+      <position x="228" y="625"/>
+    </node>
+    <node uid="4ebc40ca-6289-4f72-b12c-97e571eb0a60">
+      <id>7</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="158" y="630"/>
+    </node>
+    <node uid="32fc9ebd-921c-4e92-90c6-f7bc1e2d3d71">
+      <id>8</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="99" y="607"/>
+    </node>
+    <node uid="ac11d00c-fe78-4475-88a9-f72c9be0855f">
+      <id>9</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="461" y="484"/>
+    </node>
+  </nodes>
+  <connections>
+    <connection>
+      <id>9</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>2</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>5</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>6</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>9</id>
+      <id>8</id>
+    </connection>
+  </connections>
+</test>

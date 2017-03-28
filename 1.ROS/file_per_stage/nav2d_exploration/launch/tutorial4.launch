@@ -1,0 +1,117 @@
+<launch>
+<!--
+TO INSTALL 
+- sudo ln -s /usr/include/eigen3/Eigen/ /usr/include/Eigen
+
+TO LAUNCH
+- roslaunch tutorial4.launch <double minus>screen
+- rosrun rviz rviz -d tutorial4.rviz
+- run in the gdb
+- rosservice call /robot_0/StartMapping 3
+- rostopic pub <position>
+- rosservice call /BS/StartExploration 2
+
+
+
+MAZE
+rostopic pub -1 /BS/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: 0.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+WHEN FACING THE BACK OF EACH OTHER
+rostopic pub -1 /robot_1/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 1.0, y: 0.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+rostopic pub -1 /robot_2/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: -1.0, y: 0.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+WHEN LINED UP
+rostopic pub -1 /robot_1/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: -1.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+rostopic pub -1 /robot_2/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: 1.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+WHEN FACING BACK TO BACK
+rostopic pub -1 /robot_1/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: -1.0, y: 0.0, z: 0.0}, orientation: {x: 0.0, y: 1.0, z: 0.0, w: 6.123233995736766e-17}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+MAP_TURTLEBOT
+CORRIDOR
+rostopic pub -1 /robot_1/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: 0.5, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+rostopic pub -1 /robot_2/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: -0.5, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+MIDDLE OF AMOCO HALL
+rostopic pub -1 /robot_1/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: 1.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+rostopic pub -1 /robot_2/initialpose geometry_msgs/PoseWithCovarianceStamped '{header: {seq: 0, stamp: {secs: 447, nsecs: 200000000}, frame_id: map}, pose: {pose: {position: {x: 0.0, y: -1.0, z: 0.0}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}, covariance: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]}}'
+
+rostopic pub -r 10 /robot_2/cmd_vel_mux/input/navi geometry_msgs/Twist '{linear: {x: 0.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}'
+
+rostopic pub -r 10 /robot_0/cmd nav2d_operator/cmd '{Velocity: 1.0, Turn: 1, Mode: 0}'
+
+rosrun teleop teleop velocity_topic:=/robot_2/cmd_vel_mux/input/teleop
+-->
+
+	<!-- Some general parameters -->
+	<param name="use_sim_time" value="true" />
+
+	<!-- Start Stage simulator with a given environment -->
+	<node name="Stage" pkg="stage_ros" type="stageros" args="$(env HOME)/catkin_ws/src/navigation_2d/nav2d_exploration/launch/maze.world"> 
+	<!-- args="$(env HOME)/DATA/Dropbox/work/2015_constrained_exploration/map_turtlebot.world"-->
+		<param name="base_watchdog_timeout" value="0" />
+        <remap from="/robot_0/cmd_vel" to="/robot_0/mobile_base/commands/velocity"/>
+        <remap from="/robot_1/cmd_vel" to="/robot_1/mobile_base/commands/velocity"/>
+        <remap from="/robot_2/cmd_vel" to="/robot_2/mobile_base/commands/velocity"/>
+        <remap from="/robot_0/base_scan" to="/robot_0/scan"/>
+        <remap from="/robot_1/base_scan" to="/robot_1/scan"/>
+        <remap from="/robot_2/base_scan" to="/robot_2/scan"/>
+	</node>
+
+	<!-- Start the joystick-driver and remote-controller for operation-->
+	<!--node name="Joystick" pkg="joy" type="joy_node" />
+	<node name="SimController" pkg="nav2d_remote" type="sim_joy" args="2"/-->
+
+	<node name="BS_MapAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /BS/map 100"/>
+	<node name="BS_PoseAlign" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 /BS/map /BS/base_pose  100"/>
+	<node name="R0_MapAlign" pkg="tf" type="static_transform_publisher" args="20 0 0 0 0 0 /map /robot_0/map 100"/>
+	<node name="R1_MapAlign" pkg="tf" type="static_transform_publisher" args="40 0 0 0 0 0 /map /robot_1/map 100"/>
+    <node name="R2_MapAlign" pkg="tf" type="static_transform_publisher" args="600 0 0 0 0 0 /map /robot_2/map 100"/>
+
+    <!-- BS -->
+    <group ns="BS">
+		<param name="robot_id" value="666" />
+    	<param name="use_sim_time" value="true" />
+		<param name="tf_prefix" type="string" value="BS"/>
+		<param name="is_base_station" value="true"/>
+		<rosparam file="param/rosBS.yaml"/>
+		<node name="Mapper" pkg="nav2d_karto" type="mapper">
+			<remap from="base_scan" to="scan"/>
+			<remap from="karto_in" to="/karto"/>
+			<remap from="karto_out" to="/karto"/>
+        	<!--remap from="others" to="/others"/-->
+			<rosparam file="param/mapper.yaml"/>
+		</node>
+		
+        <node name="Navigator" pkg="nav2d_navigator" type="navigator" launch-prefix="xterm -e gdb --args">
+                <rosparam file="param/navigatorBS.yaml"/>
+        </node>
+
+        <node name="GetMap" pkg="nav2d_navigator" type="get_map_client" />
+        <node name="Explore" pkg="nav2d_navigator" type="explore_client" />
+    </group>
+
+    <include file="turtlebot.launch.xml">
+        <arg name="robot_name" value="robot_0"/>
+        <arg name="robot_id" value="1"/>
+    </include>
+
+    <include file="turtlebot.launch.xml">
+        <arg name="robot_name" value="robot_1"/>
+        <arg name="robot_id" value="2"/>
+    </include>
+
+    <!--include file="turtlebot.launch.xml">
+        <arg name="robot_name" value="robot_2"/>
+        <arg name="robot_id" value="3"/>
+    </include-->
+
+
+	<!-- RVIZ to view the visualization -->
+	<node name="RVIZ" pkg="rviz" type="rviz" args=" -d $(env HOME)/catkin_ws/src/navigation_2d/nav2d_exploration/launch/tutorial4.rviz" />
+
+</launch>
